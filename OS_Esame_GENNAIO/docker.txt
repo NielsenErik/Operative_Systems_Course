@@ -1,0 +1,1 @@
+sudo docker run -ti --rm --name="LabOs" --privileged -v /:/host -v "$(pwd):/home/LabOs" --hostname "LabOs" --workdir /home/LabOs ubuntu:20.04 /bin/bash
